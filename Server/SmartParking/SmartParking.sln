@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.View", "SmartParking.View.csproj", "{C7E37506-0838-43E9-A663-17133DAF23E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Controller", "..\SmartParking.Controller\SmartParking.Controller.csproj", "{AD7C2848-AFD0-4DF6-8832-D8393826F145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Util", "..\SmartParking.Util\SmartParking.Util.csproj", "{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Model", "..\SmartParking.Model\SmartParking.Model.csproj", "{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E37506-0838-43E9-A663-17133DAF23E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E37506-0838-43E9-A663-17133DAF23E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E37506-0838-43E9-A663-17133DAF23E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E37506-0838-43E9-A663-17133DAF23E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7C2848-AFD0-4DF6-8832-D8393826F145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C2848-AFD0-4DF6-8832-D8393826F145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7C2848-AFD0-4DF6-8832-D8393826F145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7C2848-AFD0-4DF6-8832-D8393826F145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3E521F9-86CB-40F5-BDBC-51A6F2AE886B}
+	EndGlobalSection
+EndGlobal
