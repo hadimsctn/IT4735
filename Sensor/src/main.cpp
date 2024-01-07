@@ -22,28 +22,6 @@ const char *topicRfid = "Sensor/RFID";
 const char *topicDoor = "Sensor/Door";
 const int mqtt_port = 1883;
 
-// void parseJsonPayloadUpdateName(String jsonStr)
-// {
-//   DynamicJsonDocument doc(8192); // Kích thước đối tượng JSON tương ứng với payload
-
-//   // Phân tích chuỗi JSON
-//   deserializeJson(doc, jsonStr);
-
-//   // Trích xuất giá trị từ các trường JSON
-//   const char *idDevice = doc["IdDevice"];
-
-//   // Xử lý dữ liệu
-//   JsonArray idDeviceArray = doc["IdDevice"];
-//   for (const auto &value : idDeviceArray)
-//   {
-//     if (value == "string")
-//     {
-//       const char *name = doc["Name"];
-//       updateName(String(name));
-//       break; // Nếu đã tìm thấy giá trị "string", thoát khỏi vòng lặp
-//     }
-//   }
-// }
 
 void callback(char *topic, byte *payload, unsigned int length)
 {

@@ -6,6 +6,20 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.8.1.5350" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartParking.Controller\SmartParking.Controller.csproj" />
+    <ProjectReference Include="..\SmartParking.Model\SmartParking.Model.csproj" />
+    <ProjectReference Include="..\SmartParking.Util\SmartParking.Service.csproj" />
+  </ItemGroup>
 
 </Project>

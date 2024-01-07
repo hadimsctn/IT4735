@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.8.1.5350" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+  </ItemGroup>
+
 </Project>

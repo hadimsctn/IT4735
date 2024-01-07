@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.View", "SmartParking.View.csproj", "{C7E37506-0838-43E9-A663-17133DAF23E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartParking.View", "SmartParking.View.csproj", "{C7E37506-0838-43E9-A663-17133DAF23E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Controller", "..\SmartParking.Controller\SmartParking.Controller.csproj", "{AD7C2848-AFD0-4DF6-8832-D8393826F145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartParking.Controller", "..\SmartParking.Controller\SmartParking.Controller.csproj", "{AD7C2848-AFD0-4DF6-8832-D8393826F145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Util", "..\SmartParking.Util\SmartParking.Util.csproj", "{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartParking.Service", "..\SmartParking.Util\SmartParking.Service.csproj", "{EC41FA93-2F0C-425C-95A0-BCFA243E08E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A660A8A-76CD-4A01-825C-AE68CC2E2A53} = {8A660A8A-76CD-4A01-825C-AE68CC2E2A53}
+		{AD7C2848-AFD0-4DF6-8832-D8393826F145} = {AD7C2848-AFD0-4DF6-8832-D8393826F145}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParking.Model", "..\SmartParking.Model\SmartParking.Model.csproj", "{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartParking.Model", "..\SmartParking.Model\SmartParking.Model.csproj", "{8A660A8A-76CD-4A01-825C-AE68CC2E2A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
